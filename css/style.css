@@ -1,0 +1,152 @@
+body {
+    background: darkblue;
+    background: radial-gradient(circle, rgba(6,172,206,1) 0%, rgba(9,9,121,1) 64%);
+    background-attachment: fixed;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(28, 28, 28);
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset p {
+    font-size: 20px;
+}
+
+label {
+    background: linear-gradient(45deg, #82060f 0%,#ef0909 47%,#ef0909 47%,#f23f09 55%,#ef4e09 60%,#ef0909 74%,#7f0513 99%);
+    border: 1px solid white;
+    border-radius: 4px;
+    display: block;
+    height: 35px;
+    margin: 20px auto;
+    padding-top: 15px;
+    text-align: left;
+    width: 35%;
+}
+
+input[type="radio"] {
+    margin-right: 15px;
+}
+
+fieldset p {
+    background: linear-gradient(45deg, #82060f 0%,#ef0909 47%,#ef0909 47%,#f23f09 55%,#ef4e09 60%,#ef0909 74%,#7f0513 99%);
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 50px auto;
+    width: 37%;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+#welcomeMsg {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+#group2, #group3, #group4 {
+    display: none;
+}
+
+.logoMilhao {
+    width: 40%;
+}
+
+.msgindex {
+    color: #ffbc00;
+    font-size: 18px;
+}
+
+.links {
+    color: white;
+}
+
+.links:visited {
+    color: white;
+}
+
+.btn {
+    background: darkred;
+    background: linear-gradient(45deg, #82060f 0%,#ef0909 47%,#ef0909 47%,#f23f09 55%,#ef4e09 60%,#ef0909 74%,#7f0513 99%);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    height: 50px;
+    margin: 50px 15px;
+    transition: all 1s;
+    width: 15%;
+}
+
+.btn:hover {
+    animation: animaBtn 0.5s both;
+}
+
+.btnGame {
+    background: #ffd400;
+    border: 1px solid white;
+    border-style: outset;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 0px rgba(94,94,94,0.52);
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    margin: 15px;
+    transition: all 0.5s;
+    width: 150px;
+}
+
+.btnGame:hover {
+    background: #c5a400;
+}
+
+.btnGame:disabled {
+    background: #d6c77d;
+    color: #a05858;
+}
+
+.linksResults {
+    color: red;
+}
+
+.linksResults:visited {
+    color: red;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: #650606;
+}
+
+.playAgain {
+    background: linear-gradient(45deg, #82060f 0%,#ef0909 47%,#ef0909 47%,#f23f09 55%,#ef4e09 60%,#ef0909 74%,#7f0513 99%);
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 50px auto;
+    width: 37%;
+}
+
+@keyframes animaBtn {
+    from{
+        background: linear-gradient(45deg, #82060f 0%,#ef0909 47%,#ef0909 47%,#f23f09 55%,#ef4e09 60%,#ef0909 74%,#7f0513 99%);
+    } to {
+        background: rgb(116, 1, 1);
+    }
+}

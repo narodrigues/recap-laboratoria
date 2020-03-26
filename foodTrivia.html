@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questões sobre comida</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <main>
+            <form method="get" action="./resultFood.html" id="foodForm">
+                <fieldset id="group1">
+                    <p>O que significa "ao dente"?</p>
+                    <label>
+                        <input type="radio" name="macarrao" value="formato">Um formato de macarrão
+                    </label>
+                    <label>
+                        <input type="radio" name="macarrao" value="cozimento">O ponto de cozimento ideal da massa
+                    </label>
+                    <label>
+                        <input type="radio" name="macarrao" value="molho">Quando a massa combina perfeitamente com o molho
+                    </label>
+                    <label>
+                        <input type="radio" name="macarrao" value="temperatura">A temperatura ideal para servir a massa
+                    </label>
+                </fieldset>
+
+                <fieldset id="group2">
+                    <p>Qual o ingrediente principal do molho "funghi"?</p>
+                    <label>
+                        <input type="radio" name="funghi" value="tomate">Tomate
+                    </label>
+                    <label>
+                        <input type="radio" name="funghi" value="azeitona">Azeitona
+                    </label>
+                    <label>
+                        <input type="radio" name="funghi" value="bacon">Bacon
+                    </label>
+                    <label>
+                        <input type="radio" name="funghi" value="cogumelo">Cogumelos
+                    </label>
+                </fieldset>
+
+                <fieldset id="group3">
+                    <p>Qual o nome do "arroz de risoto"?</p>
+                    <label>
+                        <input type="radio" name="arroz" value="italiamo">Arroz italiano
+                    </label>
+                    <label>
+                        <input type="radio" name="arroz" value="arbinio">Arbinio
+                    </label>
+                    <label>
+                        <input type="radio" name="arroz" value="arboreo">Arbóreo
+                    </label>
+                    <label>
+                        <input type="radio" name="arroz" value="arrozoto">Arrozoto
+                    </label>
+                </fieldset>
+
+                <fieldset id="group4">
+                    <p>Qual a cidade com o maior número de pizzarias no Brasil?</p>
+                    <label>
+                        <input type="radio" name="cidade" value="bh">Belo Horizonte
+                    </label>
+                    <label>
+                        <input type="radio" name="cidade" value="rio">Rio de Janeiro
+                    </label>
+                    <label>
+                        <input type="radio" name="cidade" value="sp">São Paulo
+                    </label>
+                    <label>
+                        <input type="radio" name="cidade" value="cwb">Curitiba
+                    </label>
+                </fieldset>
+
+                <input type="button" value="Próxima" id="buttonNext" class="btnGame" disabled>
+                <input type="submit" value="Enviar" id="submitAnswers" class="btnGame" disabled>
+            </form>
+        </main>
+
+        <script type="text/javascript" src="./javascript/questions.js"></script>
+    </body>
+</html>

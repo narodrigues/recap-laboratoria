@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questões aleatórias</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <main>
+            <form method="get" action="./resultRandom.html" id="randomForm">
+                <fieldset id="group1">
+                    <p>De acordo com o ditado, o que “não adianta chorar”?</p>
+                    <label>
+                        <input type="radio" name="ditado" value="folha">Folhas caídas
+                    </label>
+                    <label>
+                        <input type="radio" name="ditado" value="doce">Doce queimado
+                    </label>
+                    <label>
+                        <input type="radio" name="ditado" value="leite">Leite derramado
+                    </label>
+                    <label>
+                        <input type="radio" name="ditado" value="pao">Pão velho
+                    </label>
+                </fieldset>
+
+                <fieldset id="group2">
+                    <p>Como se chama o boneco controlado por cordas?</p>
+                    <label>
+                        <input type="radio" name="boneco" value="robo">Robô
+                    </label>
+                    <label>
+                        <input type="radio" name="boneco" value="marionete">Marionete
+                    </label>
+                    <label>
+                        <input type="radio" name="boneco" value="androide">Andróide
+                    </label>
+                    <label>
+                        <input type="radio" name="boneco" value="manequim">Manequim
+                    </label>
+                </fieldset>
+
+                <fieldset id="group3">
+                    <p>Como são chamados os pedaços de gelo que caem durante a chuva?</p>
+                    <label>
+                        <input type="radio" name="chuva" value="granizo">Granizo
+                    </label>
+                    <label>
+                        <input type="radio" name="chuva" value="neve">Neve
+                    </label>
+                    <label>
+                        <input type="radio" name="chuva" value="granito">Granito
+                    </label>
+                    <label>
+                        <input type="radio" name="chuva" value="nevasca">Nevasca
+                    </label>
+                </fieldset>
+
+                <fieldset id="group4">
+                    <p>No desenho “Papa-léguas” qual é o som feito pela ave corredora?</p>
+                    <label>
+                        <input type="radio" name="som" value="ping">Ping! Ping!
+                    </label>
+                    <label>
+                        <input type="radio" name="som" value="uga">Uga! Uga!
+                    </label>
+                    <label>
+                        <input type="radio" name="som" value="vrum">Vrum! Vrum!
+                    </label>
+                    <label>
+                        <input type="radio" name="som" value="bip">Bip! Bip!
+                    </label>
+                </fieldset>
+
+                <input type="button" value="Próxima" id="buttonNext" class="btnGame" disabled>
+                <input type="submit" value="Enviar" id="submitAnswers" class="btnGame" disabled>
+            </form>
+        </main>
+
+        <script type="text/javascript" src="./javascript/questions.js"></script>
+    </body>
+</html>
